@@ -1,0 +1,16 @@
+PODS:
+  - SLTVPlaceholder (0.1.0)
+
+DEPENDENCIES:
+  - SLTVPlaceholder (from `../`)
+
+EXTERNAL SOURCES:
+  SLTVPlaceholder:
+    :path: ../
+
+SPEC CHECKSUMS:
+  SLTVPlaceholder: 6dcd65284666d080e78df5917e0e531b3ce3dfd9
+
+PODFILE CHECKSUM: 3b6a5c3067125f6713c03722ed040caf8272b2d6
+
+COCOAPODS: 1.2.1

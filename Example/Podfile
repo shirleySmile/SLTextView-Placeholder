@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'SLTVPlaceholder_Example' do
+  pod 'SLTVPlaceholder', :path => '../'
+
+  target 'SLTVPlaceholder_Tests' do
+    inherit! :search_paths
+    
+    
+  end
+end
