@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "6003F589195388D20070C39A"
-               BuildableName = "SLTVPlaceholder_Example.app"
-               BlueprintName = "SLTVPlaceholder_Example"
-               ReferencedContainer = "container:SLTVPlaceholder.xcodeproj">
+               BuildableName = "SLTextVPlaceholder_Example.app"
+               BlueprintName = "SLTextVPlaceholder_Example"
+               ReferencedContainer = "container:SLTextVPlaceholder.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -33,9 +33,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "6003F5AD195388D20070C39A"
-               BuildableName = "SLTVPlaceholder_Tests.xctest"
-               BlueprintName = "SLTVPlaceholder_Tests"
-               ReferencedContainer = "container:SLTVPlaceholder.xcodeproj">
+               BuildableName = "SLTextVPlaceholder_Tests.xctest"
+               BlueprintName = "SLTextVPlaceholder_Tests"
+               ReferencedContainer = "container:SLTextVPlaceholder.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -43,9 +43,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "6003F589195388D20070C39A"
-            BuildableName = "SLTVPlaceholder_Example.app"
-            BlueprintName = "SLTVPlaceholder_Example"
-            ReferencedContainer = "container:SLTVPlaceholder.xcodeproj">
+            BuildableName = "SLTextVPlaceholder_Example.app"
+            BlueprintName = "SLTextVPlaceholder_Example"
+            ReferencedContainer = "container:SLTextVPlaceholder.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -66,9 +66,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "6003F589195388D20070C39A"
-            BuildableName = "SLTVPlaceholder_Example.app"
-            BlueprintName = "SLTVPlaceholder_Example"
-            ReferencedContainer = "container:SLTVPlaceholder.xcodeproj">
+            BuildableName = "SLTextVPlaceholder_Example.app"
+            BlueprintName = "SLTextVPlaceholder_Example"
+            ReferencedContainer = "container:SLTextVPlaceholder.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -85,9 +85,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "6003F589195388D20070C39A"
-            BuildableName = "SLTVPlaceholder_Example.app"
-            BlueprintName = "SLTVPlaceholder_Example"
-            ReferencedContainer = "container:SLTVPlaceholder.xcodeproj">
+            BuildableName = "SLTextVPlaceholder_Example.app"
+            BlueprintName = "SLTextVPlaceholder_Example"
+            ReferencedContainer = "container:SLTextVPlaceholder.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

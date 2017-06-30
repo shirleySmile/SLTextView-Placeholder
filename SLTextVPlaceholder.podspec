@@ -1,5 +1,5 @@
 #
-# Be sure to run `pod lib lint SLTVPlaceholder.podspec' to ensure this is a
+# Be sure to run `pod lib lint SLTextVPlaceholder.podspec' to ensure this is a
 # valid spec before submitting.
 #
 # Any lines starting with a # are optional, but their use is encouraged
@@ -7,28 +7,36 @@
 #
 
 Pod::Spec.new do |s|
-s.name             = 'SLTVPlaceholder'
-s.version          = '0.1.1'
-s.summary          = 'SLTextView+Placeholder.'
+  s.name             = 'SLTextVPlaceholder'
+  s.version          = '0.1.0'
+  s.summary          = 'A short description of SLTextVPlaceholder.'
 
-s.description      = <<-DESC
-TODO: inital data textView for placeholder
-DESC
+# This description is used to generate tags and improve search results.
+#   * Think: What does it do? Why did you write it? What is the focus?
+#   * Try to keep it short, snappy and to the point.
+#   * Write the description between the DESC delimiters below.
+#   * Finally, don't worry about the indent, CocoaPods strips it!
 
-s.homepage         = 'https://github.com/shirleySmile/SLTextView-Placeholder'
-s.license          = { :type => 'MIT', :file => 'LICENSE' }
-s.author           = { 'shirleySmile' => '276482207@qq.com' }
-s.source           = { :git => 'https://github.com/shirleySmile/SLTextView-Placeholder.git', :tag => s.version.to_s }
+  s.description      = <<-DESC
+TODO: Add long description of the pod here.
+                       DESC
 
-s.ios.deployment_target = '8.0'
+  s.homepage         = 'https://github.com/shirleySmile/SLTextVPlaceholder'
+  # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
+  s.license          = { :type => 'MIT', :file => 'LICENSE' }
+  s.author           = { 'shirleySmile' => '276482207@qq.com' }
+  s.source           = { :git => 'https://github.com/shirleySmile/SLTextVPlaceholder.git', :tag => s.version.to_s }
+  # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
-s.source_files = 'SLTVPlaceholder/Classes/**/*'
+  s.ios.deployment_target = '8.0'
 
-# s.resource_bundles = {
-#   'SLTVPlaceholder' => ['SLTVPlaceholder/Assets/*.png']
-# }
+  s.source_files = 'SLTextVPlaceholder/Classes/**/*'
+  
+  # s.resource_bundles = {
+  #   'SLTextVPlaceholder' => ['SLTextVPlaceholder/Assets/*.png']
+  # }
 
-# s.public_header_files = 'Pod/Classes/**/*.h'
-# s.frameworks = 'UIKit', 'MapKit'
-# s.dependency 'AFNetworking', '~> 2.3'
+  # s.public_header_files = 'Pod/Classes/**/*.h'
+  # s.frameworks = 'UIKit', 'MapKit'
+  # s.dependency 'AFNetworking', '~> 2.3'
 end

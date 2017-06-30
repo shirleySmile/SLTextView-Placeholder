@@ -1,8 +1,8 @@
 //
-//  SLTVPlaceholderTests.m
-//  SLTVPlaceholderTests
+//  SLTextVPlaceholderTests.m
+//  SLTextVPlaceholderTests
 //
-//  Created by shirleySmile on 06/28/2017.
+//  Created by shirleySmile on 06/30/2017.
 //  Copyright (c) 2017 shirleySmile. All rights reserved.
 //
 

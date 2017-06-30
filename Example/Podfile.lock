@@ -1,16 +1,16 @@
 PODS:
-  - SLTVPlaceholder (0.1.0)
+  - SLTextVPlaceholder (0.1.0)
 
 DEPENDENCIES:
-  - SLTVPlaceholder (from `../`)
+  - SLTextVPlaceholder (from `../`)
 
 EXTERNAL SOURCES:
-  SLTVPlaceholder:
+  SLTextVPlaceholder:
     :path: ../
 
 SPEC CHECKSUMS:
-  SLTVPlaceholder: 6dcd65284666d080e78df5917e0e531b3ce3dfd9
+  SLTextVPlaceholder: 1c2c7adb4c7cbfe6b70418172dafc1b6c4cba87e
 
-PODFILE CHECKSUM: 3b6a5c3067125f6713c03722ed040caf8272b2d6
+PODFILE CHECKSUM: 2dafd317e1ef936d46eace1d3d71bf6dca7500d3
 
 COCOAPODS: 1.2.1
