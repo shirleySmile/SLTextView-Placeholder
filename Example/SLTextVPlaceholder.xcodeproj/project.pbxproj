@@ -17,8 +17,8 @@
 
 /* Begin PBXFileReference section */
 		451E9DCD2A99B2FBB896965F /* Pods_SLTextVPlaceholder_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SLTextVPlaceholder_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		5EB6E802C95FE3689489DDF3 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
-		5F7836D0B76131C0904C47AF /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		5EB6E802C95FE3689489DDF3 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		5F7836D0B76131C0904C47AF /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		5FFD989BC766EB471A8E2D6C /* Pods-SLTextVPlaceholder_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SLTextVPlaceholder_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-SLTextVPlaceholder_Tests/Pods-SLTextVPlaceholder_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6003F58F195388D20070C39A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -30,7 +30,7 @@
 		6003F5BB195388D20070C39A /* Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tests.m; sourceTree = "<group>"; };
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
 		9BC61BD7436169091645590B /* Pods-SLTextVPlaceholder_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SLTextVPlaceholder_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SLTextVPlaceholder_Tests/Pods-SLTextVPlaceholder_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		C52F11BB092260EE591BF425 /* SLTextVPlaceholder.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = SLTextVPlaceholder.podspec; path = ../SLTextVPlaceholder.podspec; sourceTree = "<group>"; };
+		C52F11BB092260EE591BF425 /* SLTextVPlaceholder.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = SLTextVPlaceholder.podspec; path = ../SLTextVPlaceholder.podspec; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -347,6 +347,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SLTextVPlaceholder_Example.app/SLTextVPlaceholder_Example";
+				USER_HEADER_SEARCH_PATHS = "@{SRCROOT}/**";
 				WRAPPER_EXTENSION = xctest;
 			};
 			name = Debug;
@@ -366,6 +367,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SLTextVPlaceholder_Example.app/SLTextVPlaceholder_Example";
+				USER_HEADER_SEARCH_PATHS = "@{SRCROOT}/**";
 				WRAPPER_EXTENSION = xctest;
 			};
 			name = Release;
